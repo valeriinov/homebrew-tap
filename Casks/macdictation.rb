@@ -4,7 +4,7 @@ cask "macdictation" do
 
   url "https://github.com/valeriinov/macdictation/releases/download/v#{version}/MacDictation-#{version}.zip"
   name "MacDictation"
-  desc "Menu bar dictation that recognises speech on the Mac and inserts the text"
+  desc "Menu bar dictation with on-device speech recognition"
   homepage "https://valeriinov.github.io/macdictation/setup.html"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "macdictation" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "MacDictation.app"
 
