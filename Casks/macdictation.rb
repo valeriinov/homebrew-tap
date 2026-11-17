@@ -1,6 +1,6 @@
 cask "macdictation" do
-  version "1.1.1"
-  sha256 "773994f329554f7a762e9a16c410f2e26a2afc1de89692a67d00bba92d98ddd4"
+  version "1.1.2"
+  sha256 "f63d2a20a40bb42cf9799f07df373f3de47952d800d3e495cfe6cc9204100ebc"
 
   url "https://github.com/valeriinov/macdictation/releases/download/v#{version}/MacDictation-#{version}.zip"
   name "MacDictation"
